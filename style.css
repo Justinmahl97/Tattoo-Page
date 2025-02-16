@@ -7,13 +7,14 @@
 }
 h1,a,h3{ color: white;}
 h2{ color: black;}
-body{background-image: url(background.jpg);
+body{background-image: url(IMG_0375.jpg);
 	background-repeat: no-repeat;
 	 background-position: center;
 	 background-attachment: fixed;
 	 background-size: cover;
 	 display: flex;
 	 flex-direction: column;
+	 padding: 0px 0px;
 	 }
 .header{
 	width: 100%;
@@ -89,7 +90,7 @@ body{background-image: url(background.jpg);
 	border-radius: 5px;
 	float: left;
 	display: table-cell;
-	padding: 0px 0px;
+	padding: 10px 0px;
 }
 .welcome{
 	border-style: solid;
@@ -106,7 +107,7 @@ body{background-image: url(background.jpg);
 	border-radius: 5px;
 	float: right;
 	display: table-cell;
-	padding: 0px 0px;
+	padding: 10px 0px;
 }
 .card1{
 	border-style: solid;
@@ -184,8 +185,21 @@ img {
 .container3{ 
 }	
 .cards{
-	height: 100%;
-	float: left;
-	display: table-cell;
-	padding: 0px 0px;
+	height: 465px;
+	width: 100%;
+	background-size: cover;
+	background-image: url(background.jpg);
+	border-bottom: 3px solid  #D69494;
+}
+.cut-out{
+	height: 600px;
+	width: 100%;
+}
+.deco{
+	height: 500px;
+	width: 100%;
+	background-size: cover;
+	background-image: url(background.jpg);
+	padding: 50px 0px;
+	border-top: 3px solid #D69494;
 }
